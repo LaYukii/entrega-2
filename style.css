@@ -5,20 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  /* font-family: "Montserrat", sans-serif; */
-  /* font-family: "Quicksand", sans-serif; */
   font-family: "Roboto", sans-serif;
   font-family: "Spirax", cursive;
-  /* font-family: "Wavefont", cursive; */
 }
 
 body {
   background-color: #000814;
 }
 img {
-  width: 70px; /* Establece el ancho deseado en píxeles */
-  /* height: auto;  */
-  /* Esto mantiene la proporción original de la imagen */
+  width: 73px;
   /* border: 2px solid blue; */
   display: flex;
 }
@@ -28,11 +23,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   /* border: 2px solid rgb(29, 100, 148); */
-  /* border-radius: 20px; */
-  /* margin: 10px 200px 0 200px; */
   padding: 5px;
   background-color: #d00000f6;
-  /* margin: 20px 0; */
 }
 
 .nav {
@@ -51,10 +43,5 @@ nav a {
 }
 
 a:hover {
-  color: rgba(
-    255,
-    255,
-    255,
-    0.774
-  ); /* Cambia el color del texto del enlace cuando el mouse está sobre él */
+  color: rgba(255, 255, 255, 0.815);
 }
