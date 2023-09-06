@@ -13,13 +13,14 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: #000814;
 }
 img {
   width: 80px; /* Establece el ancho deseado en píxeles */
   /* height: auto;  */
   /* Esto mantiene la proporción original de la imagen */
   /* border: 2px solid blue; */
+  display: flex;
 }
 
 nav {
@@ -27,31 +28,33 @@ nav {
   justify-content: space-around;
   align-items: center;
   /* border: 2px solid rgb(29, 100, 148); */
-  border-radius: 20px;
-  margin: 10px 200px 0 200px;
-  padding: 5px;
-  background-color: rgb(214, 22, 22);
+  /* border-radius: 20px; */
+  /* margin: 10px 200px 0 200px; */
+  padding: 2px;
+  background-color: #d00000f6;
   /* margin: 20px 0; */
 }
 
 .nav {
   display: flex;
   gap: 10px;
-  /* border: 2px solid black; */
+  /* border: 2px solid rgb(0, 0, 0); */
   flex-direction: row;
   justify-content: space-between;
-  width: 450px;
+  width: 600px;
 }
 
-a {
+nav a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 23px;
 }
 
 a:hover {
-  color: red; /* Cambia el color del texto del enlace cuando el mouse está sobre él */
+  color: rgba(
+    255,
+    255,
+    255,
+    0.774
+  ); /* Cambia el color del texto del enlace cuando el mouse está sobre él */
 }
-/* a:visited {
-    color: blue; Cambia el color del texto del enlace después de que se haya visitado
-  } */
