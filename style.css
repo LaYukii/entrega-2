@@ -16,7 +16,7 @@ body {
   background-color: #000814;
 }
 img {
-  width: 80px; /* Establece el ancho deseado en píxeles */
+  width: 70px; /* Establece el ancho deseado en píxeles */
   /* height: auto;  */
   /* Esto mantiene la proporción original de la imagen */
   /* border: 2px solid blue; */
@@ -30,7 +30,7 @@ nav {
   /* border: 2px solid rgb(29, 100, 148); */
   /* border-radius: 20px; */
   /* margin: 10px 200px 0 200px; */
-  padding: 2px;
+  padding: 5px;
   background-color: #d00000f6;
   /* margin: 20px 0; */
 }
@@ -47,7 +47,7 @@ nav {
 nav a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 a:hover {
