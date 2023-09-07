@@ -49,5 +49,4 @@ a:hover {
 
 li > a:hover::before {
   content: "☠️";
-  margin-right: 5px;
 }
