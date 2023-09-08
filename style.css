@@ -14,7 +14,6 @@ body {
 img {
   height: 60px;
   /* border: 2px solid blue; */
-  display: flex;
 }
 
 nav {
@@ -22,7 +21,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   /* border: 2px solid rgb(180, 255, 7); */
-  border-radius: 10px;
   padding: 0 30px;
   background-color: #d00000f6;
   height: 70px;
