@@ -1,24 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Spirax&display=swap");
 
 :root {
-  /* bg-colors */
+  /* colors */
   --background: #000c1f;
   --red-luffy: #ca0202f6;
   --golden: #f09708;
-  --primary: #1e50ff;
-  --secondary: #272d37;
-  --btn-bg: #050d26;
-  --bg-azul-10: #e9eeff;
-  --bg-white: #fff;
-  --bg-electric: #f0fbff;
-  --nav-bg: #0f1525;
-
-  /* Text colors */
-  --text-gray: #adb8c7;
-  --text-white: #f3f4f6;
 
   /* Fonts */
-  --font-semibold: 600;
   --font-bold: 700;
 
   --font-petite: 17px;
@@ -32,7 +20,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  /* font-family: "Spirax", sans-serif; */
 }
 
 body {
@@ -46,7 +33,6 @@ main {
   align-items: center;
   width: 100%;
   /* border: 1px solid rgb(231, 209, 4); */
-  /* max-width: 1200px; */
 }
 
 /*  ================== HEADER ==================*/
@@ -112,7 +98,7 @@ li > a:hover::before {
 
 .hero-info h1 {
   font-size: var(--font-title);
-  font-weight: bold;
+  font-weight: var(--font-bold);
   color: var(--golden);
 }
 .hero-info p {
@@ -121,7 +107,7 @@ li > a:hover::before {
   color: white;
 }
 .hero-info span {
-  color: rgb(231, 9, 9);
+  color: rgb(218, 7, 7);
   font-weight: var(--font-bold);
 }
 
@@ -146,12 +132,9 @@ li > a:hover::before {
 
 .hero-img {
   /* border: 1px solid rgb(196, 228, 13); */
-  padding: 10px;
-  /* border-radius: 15px; */
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  /* gap: 20px; */
-  /* justify-content: center; */
   width: 300px;
   height: auto;
 }
