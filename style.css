@@ -57,19 +57,19 @@ nav {
   display: flex;
   gap: 4rem;
   /* border: 2px solid rgb(0, 0, 0); */
-  width: 32%;
+  width: 30%;
   align-items: center;
   /* margin: 0 200px 0 0; */
 }
 
 nav a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: var(--font-petite);
 }
 
-li > a:hover {
+/* li > a:hover {
   color: rgb(255, 255, 255);
-}
+} */
 
 li > a:hover::before {
   content: "☠️";
@@ -126,9 +126,9 @@ li > a:hover::before {
   border-radius: 10px;
 }
 
-.buttons a:hover {
+/* .buttons a:hover {
   color: var(--golden);
-}
+} */
 
 .hero-img {
   /* border: 1px solid rgb(196, 228, 13); */
@@ -163,8 +163,15 @@ li > a:hover::before {
 }
 .about-info a {
   color: white;
+  text-decoration: underline;
 }
 
 .about-info a:hover {
   color: var(--golden);
+}
+
+.about-info img {
+  /* border: 1px solid red; */
+
+  width: 15px;
 }
