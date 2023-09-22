@@ -1,0 +1,100 @@
+/* Tablet */
+@media (max-width: 992px) {
+  /*  ================== HERO ==================*/
+  #hero {
+    /* border: 2px solid white; */
+    flex-direction: column;
+  }
+  .hero-info {
+    /* border: 2px solid white; */
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    gap: 60px;
+  }
+  .hero-img {
+    display: none;
+  }
+
+  /*  ================== CONTACT ==================*/
+  iframe {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 939px) {
+  /*  ================== CARDS ==================*/
+
+  .cards-container {
+    flex-direction: column;
+  }
+  /*  ================== CONTACT ==================*/
+
+  .info-contact {
+    align-items: center;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+}
+/* Celu */
+@media (max-width: 578px) {
+  /*  ================== HERO ==================*/
+  .hero-info {
+    /* border: 2px solid rgb(212, 212, 221); */
+    align-items: center;
+    max-width: 400px;
+  }
+
+  .btn {
+    /* border: 2px solid blue; */
+    padding: 13px;
+  }
+
+  /*  ================== HEADER ==================*/
+
+  .nav a {
+    color: black;
+    background-color: rgba(233, 29, 29, 0.897);
+    border: 2px solid red;
+    padding: 10px 80px;
+    border-radius: 90px;
+  }
+  .menu-label {
+    display: flex;
+    order: 2;
+  }
+
+  /* .menu-label img {
+    height: 20px;
+    width: 25px;
+  } */
+
+  .nav {
+    position: absolute;
+    top: 65px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6920b;
+    border: 3px solid #ca0202f6;
+    border-top: 0;
+    padding: 45px 30px;
+    border-radius: 0 0 15px 15px;
+    display: none;
+  }
+  #menu-toggle:checked ~ .nav {
+    display: flex;
+  }
+
+  /*  ================== CONTACT ==================*/
+
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+}
